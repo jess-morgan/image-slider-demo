@@ -47,7 +47,7 @@ render () {
       {this.state.hover && this.state.video1IsPlaying ? <img id="button" className="pause" src="pauseIcon.png" onClick={this.video1Controller}/> : <div></div>}
 
       <div className="video-container">
-        <video id="video1" onClick={this.video1Controller} onMouseMove={this.hoverOn} onMouseLeave={this.hoverOff}> >
+        <video id="video1" onClick={this.video1Controller} onMouseMove={this.hoverOn} onMouseLeave={this.hoverOff}>
           <source src="aucklandmuseum.mp4" type="video/mp4"/>
         </video>
         <ReactPlayer url='https://www.youtube.com/embed/18rARy8g4Hc'

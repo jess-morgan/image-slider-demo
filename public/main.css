@@ -215,3 +215,18 @@ body {
     margin-top: 10.8%
   }
 }
+
+@media (min-width: 1300px) and (min-height: 700px) {
+  .play {
+    width: 6.5%;
+    height: 8.5%;
+    margin-left: 23.5%;
+    margin-top: 7.8%
+  }
+  .pause {
+    width: 6.5%;
+    height: 8.5%;
+    margin-left: 23.5%;
+    margin-top: 7.8%
+  }
+}

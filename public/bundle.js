@@ -36272,7 +36272,7 @@ function (_React$Component) {
         onClick: this.video1Controller,
         onMouseMove: this.hoverOn,
         onMouseLeave: this.hoverOff
-      }, " >", _react["default"].createElement("source", {
+      }, _react["default"].createElement("source", {
         src: "aucklandmuseum.mp4",
         type: "video/mp4"
       })), _react["default"].createElement(_reactPlayer["default"], {
