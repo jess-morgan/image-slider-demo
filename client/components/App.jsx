@@ -42,16 +42,14 @@ hoverOff = () => {
 
 render () {
   return (
-    <div id="parent">
+    <>
       {this.state.video1IsPlaying ? <div></div> : <img id="button" className="play" src="playIcon.png" onClick={this.video1Controller}/>}
       {this.state.hover && this.state.video1IsPlaying ? <img id="button" className="pause" src="pauseIcon.png" onClick={this.video1Controller}/> : <div></div>}
 
       <div className="video-container">
-        <div onMouseMove={this.hoverOn} onMouseLeave={this.hoverOff}>
-          <video id="video1" onClick={this.video1Controller} >
-            <source src="aucklandmuseum.mp4" type="video/mp4"/>
-          </video>
-        </div>
+        <video id="video1" onClick={this.video1Controller} onMouseMove={this.hoverOn} onMouseLeave={this.hoverOff}> >
+          <source src="aucklandmuseum.mp4" type="video/mp4"/>
+        </video>
         <ReactPlayer url='https://www.youtube.com/embed/18rARy8g4Hc'
           id="video2"
           width='20%' height='30%'
@@ -61,7 +59,7 @@ render () {
         />
 
       </div>
-    </div>
+    </>
   )
 }
 }

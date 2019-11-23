@@ -36255,9 +36255,7 @@ function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      return _react["default"].createElement("div", {
-        id: "parent"
-      }, this.state.video1IsPlaying ? _react["default"].createElement("div", null) : _react["default"].createElement("img", {
+      return _react["default"].createElement(_react["default"].Fragment, null, this.state.video1IsPlaying ? _react["default"].createElement("div", null) : _react["default"].createElement("img", {
         id: "button",
         className: "play",
         src: "playIcon.png",
@@ -36269,16 +36267,15 @@ function (_React$Component) {
         onClick: this.video1Controller
       }) : _react["default"].createElement("div", null), _react["default"].createElement("div", {
         className: "video-container"
-      }, _react["default"].createElement("div", {
-        onMouseMove: this.hoverOn,
-        onMouseLeave: this.hoverOff
       }, _react["default"].createElement("video", {
         id: "video1",
-        onClick: this.video1Controller
-      }, _react["default"].createElement("source", {
+        onClick: this.video1Controller,
+        onMouseMove: this.hoverOn,
+        onMouseLeave: this.hoverOff
+      }, " >", _react["default"].createElement("source", {
         src: "aucklandmuseum.mp4",
         type: "video/mp4"
-      }))), _react["default"].createElement(_reactPlayer["default"], {
+      })), _react["default"].createElement(_reactPlayer["default"], {
         url: "https://www.youtube.com/embed/18rARy8g4Hc",
         id: "video2",
         width: "20%",
