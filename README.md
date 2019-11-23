@@ -1,3 +1,3 @@
 # react-video-player
 
-Responsive video player made in React
+A simple responsive video player made in React
