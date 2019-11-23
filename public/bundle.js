@@ -36191,8 +36191,7 @@ function (_React$Component) {
 
     _defineProperty(_assertThisInitialized(_this), "state", {
       video1IsPlaying: false,
-      video2IsPlaying: false,
-      hover: false
+      video2IsPlaying: false
     });
 
     _defineProperty(_assertThisInitialized(_this), "video1Controller", function () {
@@ -36235,18 +36234,6 @@ function (_React$Component) {
       }
     });
 
-    _defineProperty(_assertThisInitialized(_this), "hoverOn", function () {
-      _this.setState({
-        hover: true
-      });
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "hoverOff", function () {
-      _this.setState({
-        hover: false
-      });
-    });
-
     return _this;
   }
 
@@ -36260,18 +36247,11 @@ function (_React$Component) {
         className: "play",
         src: "playIcon.png",
         onClick: this.video1Controller
-      }), this.state.hover && this.state.video1IsPlaying ? _react["default"].createElement("img", {
-        id: "button",
-        className: "pause",
-        src: "pauseIcon.png",
-        onClick: this.video1Controller
-      }) : _react["default"].createElement("div", null), _react["default"].createElement("div", {
+      }), _react["default"].createElement("div", {
         className: "video-container"
       }, _react["default"].createElement("video", {
         id: "video1",
-        onClick: this.video1Controller,
-        onMouseMove: this.hoverOn,
-        onMouseLeave: this.hoverOff
+        onClick: this.video1Controller
       }, _react["default"].createElement("source", {
         src: "aucklandmuseum.mp4",
         type: "video/mp4"

@@ -4,8 +4,7 @@ import ReactPlayer from 'react-player'
 class App extends React.Component {
   state = {
     video1IsPlaying: false,
-    video2IsPlaying: false,
-    hover: false
+    video2IsPlaying: false
   }
 
   video1Controller = () => {
@@ -32,22 +31,13 @@ video2Controller = () => {
   }
 }
 
-hoverOn = () => {
-  this.setState({ hover: true })
-}
-
-hoverOff = () => {
-  this.setState({ hover: false })
-}
-
 render () {
   return (
     <>
       {this.state.video1IsPlaying ? <div></div> : <img id="button" className="play" src="playIcon.png" onClick={this.video1Controller}/>}
-      {this.state.hover && this.state.video1IsPlaying ? <img id="button" className="pause" src="pauseIcon.png" onClick={this.video1Controller}/> : <div></div>}
 
       <div className="video-container">
-        <video id="video1" onClick={this.video1Controller} onMouseMove={this.hoverOn} onMouseLeave={this.hoverOff}>
+        <video id="video1" onClick={this.video1Controller} >
           <source src="aucklandmuseum.mp4" type="video/mp4"/>
         </video>
         <ReactPlayer url='https://www.youtube.com/embed/18rARy8g4Hc'
