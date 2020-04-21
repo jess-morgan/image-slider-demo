@@ -1,57 +1,38 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
+import Slider from "react-slick"
+import ReactCompareImage from 'react-compare-image'
 
 class App extends React.Component {
   state = {
-    video1IsPlaying: false,
-    video2IsPlaying: false
-  }
 
-  video1Controller = () => {
-    let vid1 = document.getElementById('video1')
-    if (vid1.paused) {
-      vid1.play()
-      this.setState({ video1IsPlaying: true, video2IsPlaying: false })
-      let iframes = document.querySelectorAll('iframe')
-      Array.prototype.forEach.call(iframes, iframe => {
-        iframe.contentWindow.postMessage(JSON.stringify({ event: 'command',
-          func: 'pauseVideo' }), '*')
-      })
-    } else {
-      vid1.pause()
-      this.setState({ video1IsPlaying: false })
-    }
-  }
-
-video2Controller = () => {
-  let vid1 = document.getElementById('video1')
-  if (!vid1.paused) {
-    vid1.pause()
-    this.setState({ video2IsPlaying: true, video1IsPlaying: false })
-  }
 }
 
 render () {
+  const settings = {
+    dots: true,
+    infinite: true,
+    touchMove: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
+
   return (
-    <>
-      {this.state.video1IsPlaying ? <div></div> : <img id="button" className="play" src="playIcon.png" onClick={this.video1Controller}/>}
-
-      <div className="video-container">
-        <video id="video1" onClick={this.video1Controller} >
-          <source src="aucklandmuseum.mp4" type="video/mp4"/>
-        </video>
-        <ReactPlayer url='https://www.youtube.com/embed/18rARy8g4Hc'
-          id="video2"
-          width='20%' height='30%'
-          controls={false}
-          onPlay={this.video2Controller}
-          onPause={() => this.setState({ video2IsPlaying: false })}
-        />
-
-      </div>
-    </>
-  )
-}
+    <div style={{maxWidth: 900, margin: 'auto'}}>
+    <Slider {...settings}>
+      <div>
+  <ReactCompareImage leftImage="GreyStOld.jpg" rightImage="GreyStNew.jpg" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} />
+    </div>
+    <div>
+    <ReactCompareImage leftImage="GreyStOld.jpg" rightImage="GreyStNew.jpg" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
+    </div>
+    <div>
+    <ReactCompareImage leftImage="GreyStOld.jpg" rightImage="GreyStNew.jpg" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<button style={{background: '#ffffffa3', height: 5, border: 'none', width: 15}}></button>}/>
+    </div>
+    </Slider>
+   </div>
+  )}
 }
 
 export default App
