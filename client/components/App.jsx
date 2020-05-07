@@ -29,7 +29,7 @@ render () {
     <ReactCompareImage leftImage="AlbertOld.png" rightImage="AlbertNew.jpg" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<button style={{background: '#ffffffa3', height: 5, border: 'none', width: 15}}></button>}/>
     </div> */}
     <div>
-    <ReactCompareImage leftImage="public/AlbertOld.png" rightImage="public/AlbertNew.jpg" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
+    <ReactCompareImage leftImage="../public/AlbertOld.png" rightImage="../public/AlbertNew.jpg" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     <div>
     <ReactCompareImage leftImage="public/CornerofQueenandFortold.png" rightImage="public/Cornerofqueenandfortnew.jpg" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
