@@ -33590,16 +33590,8 @@ function (_React$Component) {
           margin: 'auto'
         }
       }, _react["default"].createElement(_reactSlick["default"], settings, _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
-        leftImage: "GreyStOld.jpg",
-        rightImage: "GreyStNew.jpg",
-        sliderLineColor: "rgba(255, 255, 255, 0.6)",
-        sliderLineWidth: 3,
-        style: {
-          boxShadow: 'none'
-        }
-      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
-        leftImage: "GreyStOld.jpg",
-        rightImage: "GreyStNew.jpg",
+        leftImage: "AlbertOld.png",
+        rightImage: "AlbertNew.jpg",
         sliderLineColor: "rgba(255, 255, 255, 0.6)",
         sliderLineWidth: 3,
         style: {
@@ -33614,19 +33606,227 @@ function (_React$Component) {
           }
         })
       })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
-        leftImage: "GreyStOld.jpg",
-        rightImage: "GreyStNew.jpg",
+        leftImage: "CornerofQueenandFortold.png",
+        rightImage: "Cornerofqueenandfortnew.jpg",
         sliderLineColor: "rgba(255, 255, 255, 0.6)",
         sliderLineWidth: 3,
         style: {
           boxShadow: 'none'
         },
-        handle: _react["default"].createElement("button", {
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
           style: {
-            background: '#ffffffa3',
-            height: 5,
-            border: 'none',
-            width: 15
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "GraftonOld.png",
+        rightImage: "GraftonNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "GreyStOld(2).jpg",
+        rightImage: "GreyStNew(2).jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "HighStold.png",
+        rightImage: "HighStNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "Karangahapeold.png",
+        rightImage: "KarangahapeNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "PittOld.png",
+        rightImage: "PittStNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "QueenStcnrofcustomsold.png",
+        rightImage: "QueenStcnrofcustomsnew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "QueenStVulcanandDurhamOld.png",
+        rightImage: "QueenStVulcanandDurhamNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "ShortlandQueenOld.png",
+        rightImage: "ShortlandQueenNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "SwansonQueenOld.png",
+        rightImage: "SwansonQueenNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "SymondsOld.png",
+        rightImage: "SymondsNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "VictoriaandHonsoOld.png",
+        rightImage: "VictoriaandHobsonNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "VictoriaStOld.png",
+        rightImage: "VictoriaStNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
+          }
+        })
+      })), _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
+        leftImage: "WyndhamQueenStOld.png",
+        rightImage: "WyndhamStQueenNew.jpg",
+        sliderLineColor: "rgba(255, 255, 255, 0.6)",
+        sliderLineWidth: 3,
+        style: {
+          boxShadow: 'none'
+        },
+        handle: _react["default"].createElement("img", {
+          src: "arrows.png",
+          style: {
+            width: 30,
+            height: 15,
+            opacity: 0.65
           }
         })
       }))));
