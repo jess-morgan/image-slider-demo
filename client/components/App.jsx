@@ -47,7 +47,7 @@ render () {
     <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/9710ffc9-4c58-4843-a303-6a2af51fd4e6/Karangahapeold" rightImage="https://www.aucklandmuseum.com/getmedia/505fe795-ba4c-4c2c-918f-4f0e6926e112/KarangahapeNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     <div>
-    <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/fc856142-0cdc-47cb-b0b4-316fc9bd8916/PittOld" rightImage="Phttps://www.aucklandmuseum.com/getmedia/eaeecdbb-68f0-4ffe-bdb3-3ac1b42d3666/PittStNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
+    <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/fc856142-0cdc-47cb-b0b4-316fc9bd8916/PittOld" rightImage="https://www.aucklandmuseum.com/getmedia/eaeecdbb-68f0-4ffe-bdb3-3ac1b42d3666/PittStNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     <div>
     <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/15516dce-5008-46af-98e8-307d3b1463c3/QueenStcnrofcustomsold" rightImage="https://www.aucklandmuseum.com/getmedia/429f8685-078e-4ff8-bd01-4f4e7eba50e8/QueenStcnrofcustomsnew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
