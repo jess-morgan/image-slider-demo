@@ -1,21 +1,34 @@
 import React from 'react'
 import Slider from "react-slick"
 import ReactCompareImage from 'react-compare-image'
+import imageText from '../../data/imageText'
 
 class App extends React.Component {
-  state = {
+  constructor(props) {
+    super(props)
+    this.state = {
+        imageId: 0
+    }
+  }
 
-}
+  afterChangeHandler = (e) => {
+    this.setState({imageId: e})
+  }
 
 render () {
+
+  const currentImageText = imageText.images.find(image => image.id === this.state.imageId)
+
   const settings = {
     dots: true,
     infinite: true,
     touchMove: false,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    afterChange: this.afterChangeHandler
   };
+
 
 
   return (
@@ -29,16 +42,16 @@ render () {
     <ReactCompareImage leftImage="AlbertOld.png" rightImage="AlbertNew.jpg" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<button style={{background: '#ffffffa3', height: 5, border: 'none', width: 15}}></button>}/>
     </div> */}
     <div>
-    <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/10e15b33-47e1-4f71-bb04-4127421822cd/AlbertOld" rightImage="https://www.aucklandmuseum.com/getmedia/39d1da38-bf10-4eea-83c9-5b649e6d6cc4/AlbertNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
+    <ReactCompareImage id="image0" leftImage="https://www.aucklandmuseum.com/getmedia/10e15b33-47e1-4f71-bb04-4127421822cd/AlbertOld" rightImage="https://www.aucklandmuseum.com/getmedia/39d1da38-bf10-4eea-83c9-5b649e6d6cc4/AlbertNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     <div>
-    <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/a4d70535-e3bd-4384-b1e6-b3be2c3ae230/CornerofQueenandFortold" rightImage="https://www.aucklandmuseum.com/getmedia/5393cb61-2e30-4666-b3f6-e5a27b71c6f5/Cornerofqueenandfortnew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
+    <ReactCompareImage id="image1" leftImage="https://www.aucklandmuseum.com/getmedia/a4d70535-e3bd-4384-b1e6-b3be2c3ae230/CornerofQueenandFortold" rightImage="https://www.aucklandmuseum.com/getmedia/5393cb61-2e30-4666-b3f6-e5a27b71c6f5/Cornerofqueenandfortnew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     <div>
-    <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/4bdef84a-8835-4830-a625-4a1abdc1d02c/GraftonOld" rightImage="https://www.aucklandmuseum.com/getmedia/00432c04-686f-491d-8d37-95b6ad06b8a7/GraftonNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
+    <ReactCompareImage id="image2" leftImage="https://www.aucklandmuseum.com/getmedia/4bdef84a-8835-4830-a625-4a1abdc1d02c/GraftonOld" rightImage="https://www.aucklandmuseum.com/getmedia/00432c04-686f-491d-8d37-95b6ad06b8a7/GraftonNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     <div>
-    <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/37959aa9-474c-4429-a8c3-727bf7d112fe/GreyStOld" rightImage="https://www.aucklandmuseum.com/getmedia/448fe2b1-78d7-4c78-8481-418e476c74a5/GreyStNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
+    <ReactCompareImage id="image3" leftImage="https://www.aucklandmuseum.com/getmedia/37959aa9-474c-4429-a8c3-727bf7d112fe/GreyStOld" rightImage="https://www.aucklandmuseum.com/getmedia/448fe2b1-78d7-4c78-8481-418e476c74a5/GreyStNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     <div>
     <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/d819e502-0e97-4c7b-93a0-446175fdd848/HighStold" rightImage="https://www.aucklandmuseum.com/getmedia/d56121b4-b353-4233-ac9c-3cbc8f3a4bcc/HighStNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
@@ -74,6 +87,13 @@ render () {
     <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/e7afed6b-1c88-44a0-89ba-07430b41420f/WyndhamQueenStOld" rightImage="https://www.aucklandmuseum.com/getmedia/3eb6dec4-d3f5-4dcb-8ea8-16585e356453/WyndhamStQueenNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     </Slider>
+    <div style={{textAlign: 'center', margin: '5% auto auto auto'}}>
+    <div style={{fontSize: 23, display: 'inline-flex'}}><p style={{fontWeight: 900, marginBottom: 10, marginRight: 6}}>{currentImageText.title1}</p> <p id="date" style={{marginBottom: 10}}>{currentImageText.date1}</p></div>
+    <div id="break" className="credit" style={{fontSize: 15, marginBottom: 10}}>{currentImageText.credit1}</div>
+    <br/>
+    <div style={{fontWeight: 900, fontSize: 23, marginBottom: 10}}>{currentImageText.title2}</div>
+    <div className="credit" style={{fontSize: 15}}>{currentImageText.credit2}</div>
+   </div>
    </div>
   )}
 }

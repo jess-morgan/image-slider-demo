@@ -24,3 +24,33 @@
   opacity: 0.8 !important;
 }
 
+@font-face {
+  font-family: 'Gotham Narrow';
+  src: url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/gotham-narrow-ssm-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gotham Narrow Regular';
+  src: url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Regular.woff") format("woff");
+}
+
+
+body {
+  font-family: 'Gotham Narrow';
+}
+
+.credit {
+  font-family: 'Gotham Narrow Regular';
+}
+
+#break:after {
+  content: " ";
+  display: block;
+  border-bottom: 5px solid #000;
+  width: 100px;
+  margin: 3% auto auto auto;
+}
+
+#date {
+  font-family: "Gotham Narrow Regular";
+}
