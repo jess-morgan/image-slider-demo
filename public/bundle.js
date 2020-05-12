@@ -33596,7 +33596,7 @@ function (_React$Component) {
       };
       return _react["default"].createElement("div", {
         style: {
-          maxWidth: 900,
+          maxWidth: '70%',
           margin: 'auto'
         }
       }, _react["default"].createElement(_reactSlick["default"], settings, _react["default"].createElement("div", null, _react["default"].createElement(_reactCompareImage["default"], {
@@ -33852,7 +33852,7 @@ function (_React$Component) {
         }
       }, _react["default"].createElement("div", {
         style: {
-          fontSize: 23,
+          fontSize: '1.5em',
           display: 'inline-flex'
         }
       }, _react["default"].createElement("p", {
@@ -33870,19 +33870,19 @@ function (_React$Component) {
         id: "break",
         className: "credit",
         style: {
-          fontSize: 15,
+          fontSize: '1em',
           marginBottom: 10
         }
       }, currentImageText.credit1), _react["default"].createElement("br", null), _react["default"].createElement("div", {
         style: {
           fontWeight: 900,
-          fontSize: 23,
+          fontSize: '1.5em',
           marginBottom: 10
         }
       }, currentImageText.title2), _react["default"].createElement("div", {
         className: "credit",
         style: {
-          fontSize: 15
+          fontSize: '1em'
         }
       }, currentImageText.credit2)));
     }

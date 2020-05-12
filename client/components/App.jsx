@@ -32,7 +32,7 @@ render () {
 
 
   return (
-    <div style={{maxWidth: 900, margin: 'auto'}}>
+    <div style={{maxWidth: '70%', margin: 'auto'}}>
     <Slider {...settings}>
       {/* 2 below are other slider options  */}
       {/* <div>
@@ -88,11 +88,11 @@ render () {
     </div>
     </Slider>
     <div git push style={{textAlign: 'center', margin: '5% auto auto auto'}}>
-    <div style={{fontSize: 23, display: 'inline-flex'}}><p style={{fontWeight: 900, marginBottom: 10, marginRight: 6}}>{currentImageText.title1}</p> <p id="date" style={{marginBottom: 10}}>{currentImageText.date1}</p></div>
-    <div id="break" className="credit" style={{fontSize: 15, marginBottom: 10}}>{currentImageText.credit1}</div>
+    <div style={{fontSize: '1.5em', display: 'inline-flex'}}><p style={{fontWeight: 900, marginBottom: 10, marginRight: 6}}>{currentImageText.title1}</p> <p id="date" style={{marginBottom: 10}}>{currentImageText.date1}</p></div>
+    <div id="break" className="credit" style={{fontSize: '1em', marginBottom: 10}}>{currentImageText.credit1}</div>
     <br/>
-    <div style={{fontWeight: 900, fontSize: 23, marginBottom: 10}}>{currentImageText.title2}</div>
-    <div className="credit" style={{fontSize: 15}}>{currentImageText.credit2}</div>
+    <div style={{fontWeight: 900, fontSize: '1.5em', marginBottom: 10}}>{currentImageText.title2}</div>
+    <div className="credit" style={{fontSize: '1em'}}>{currentImageText.credit2}</div>
    </div>
    </div>
   )}
