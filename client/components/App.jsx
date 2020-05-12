@@ -87,7 +87,7 @@ render () {
     <ReactCompareImage leftImage="https://www.aucklandmuseum.com/getmedia/e7afed6b-1c88-44a0-89ba-07430b41420f/WyndhamQueenStOld" rightImage="https://www.aucklandmuseum.com/getmedia/3eb6dec4-d3f5-4dcb-8ea8-16585e356453/WyndhamStQueenNew" sliderLineColor='rgba(255, 255, 255, 0.6)' sliderLineWidth={3} style={{boxShadow: 'none'}} handle={<img src="arrows.png" style={{width: 30, height: 15, opacity: 0.65}}/>}/>
     </div>
     </Slider>
-    <div style={{textAlign: 'center', margin: '5% auto auto auto'}}>
+    <div git push style={{textAlign: 'center', margin: '5% auto auto auto'}}>
     <div style={{fontSize: 23, display: 'inline-flex'}}><p style={{fontWeight: 900, marginBottom: 10, marginRight: 6}}>{currentImageText.title1}</p> <p id="date" style={{marginBottom: 10}}>{currentImageText.date1}</p></div>
     <div id="break" className="credit" style={{fontSize: 15, marginBottom: 10}}>{currentImageText.credit1}</div>
     <br/>

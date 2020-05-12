@@ -33844,6 +33844,8 @@ function (_React$Component) {
           }
         })
       }))), _react["default"].createElement("div", {
+        git: true,
+        push: true,
         style: {
           textAlign: 'center',
           margin: '5% auto auto auto'
