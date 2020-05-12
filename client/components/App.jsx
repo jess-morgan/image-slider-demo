@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick"
 import ReactCompareImage from 'react-compare-image'
-import imageText from '../../data/imageText'
+import imageText from '../data/imageText'
 
 class App extends React.Component {
   constructor(props) {
