@@ -33844,46 +33844,20 @@ function (_React$Component) {
           }
         })
       }))), _react["default"].createElement("div", {
-        git: true,
-        push: true,
-        style: {
-          textAlign: 'center',
-          margin: '5% auto auto auto'
-        }
+        className: "text-grid"
       }, _react["default"].createElement("div", {
-        style: {
-          fontSize: '1.5em',
-          display: 'inline-flex'
-        }
+        className: "col1"
       }, _react["default"].createElement("p", {
-        style: {
-          fontWeight: 900,
-          marginBottom: 10,
-          marginRight: 6
-        }
+        className: "title1"
       }, currentImageText.title1), " ", _react["default"].createElement("p", {
         id: "date",
-        style: {
-          marginBottom: 10
-        }
+        className: "date1"
       }, currentImageText.date1)), _react["default"].createElement("div", {
-        id: "break",
-        className: "credit",
-        style: {
-          fontSize: '1em',
-          marginBottom: 10
-        }
+        className: "credit1"
       }, currentImageText.credit1), _react["default"].createElement("br", null), _react["default"].createElement("div", {
-        style: {
-          fontWeight: 900,
-          fontSize: '1.5em',
-          marginBottom: 10
-        }
-      }, currentImageText.title2), _react["default"].createElement("div", {
-        className: "credit",
-        style: {
-          fontSize: '1em'
-        }
+        className: "col2"
+      }, _react["default"].createElement("p", null, currentImageText.title2)), _react["default"].createElement("div", {
+        className: "credit2"
       }, currentImageText.credit2)));
     }
   }]);
@@ -37439,105 +37413,105 @@ var imageText = {
   images: [{
     id: 0,
     title1: "Albert St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Albert St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 1,
     title1: "Corner of Queen and Fort streets ",
-    date1: " 1865",
+    date1: "1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Corner of Queen and Fort streets 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 2,
     title1: "Grafton Rd looking towards the harbour ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Grafton Rd looking towards the harbour 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 3,
     title1: "Grey St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Greys Ave and Aotea Sq 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 4,
     title1: "High St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "High St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 5,
     title1: "Karangahape Rd ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Karangahape Rd 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 6,
     title1: "Pitt St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Pitt St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 7,
     title1: "Queen St from corner of Customs St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Queen St from corner of Customs St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 8,
     title1: "Queen St between Vulcan Lane and Durham St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Queen St between Vulcan Lane and Durham St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 9,
     title1: "Shortland St looking down to Queen St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Shortland St looking down to Queen St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 10,
     title1: "Swanson St from Queen St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Swanson St from Queen St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 11,
     title1: "Symonds St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Symonds St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 12,
     title1: "Corner of Victoria and Hobson streets ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Corner of Victoria and Hobson streets 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 13,
     title1: "Victoria St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Victoria St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
   }, {
     id: 14,
     title1: "Wyndham St from Queen St ",
-    date1: " circa 1865",
+    date1: "circa 1865",
     credit1: "Reproduction from abumen silver print",
     title2: "Wyndham St from Queen St 2019",
     credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
