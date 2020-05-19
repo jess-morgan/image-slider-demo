@@ -28,6 +28,18 @@ p {
   opacity: 0.8 !important;
 }
 
+@media (max-width: 659px) {
+  .slick-dots {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 659px) {
+  .slick-dots li {
+    margin: auto !important;
+  }
+}
+
 @font-face {
   font-family: 'Gotham Narrow';
   src: url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/gotham-narrow-ssm-700.woff") format("woff");
@@ -51,6 +63,12 @@ body {
   font-size: 10px !important;
 }
 
+@media (max-width: 659px) {
+  ::before {
+    font-size: 5px !important;
+  }
+}
+
 .text-grid {
   text-align: center;
   margin: 5% auto auto;
@@ -65,6 +83,12 @@ body {
   grid-row: 1;
   grid-column: 1;
   margin: auto;
+}
+
+@media (max-width: 659px) {
+  .col1 {
+    font-size: 14px;
+  }
 }
 
 .title1 {
@@ -87,6 +111,12 @@ body {
   grid-column: 1;
 }
 
+@media (max-width: 659px) {
+  .credit1 {
+    font-size: 9px;
+  }
+}
+
 .col2 {
   font-weight: 900;
   font-size: 1em;
@@ -96,9 +126,22 @@ body {
   float: right;
 }
 
+
+@media (max-width: 659px) {
+  .col2 {
+    font-size: 14px;
+  }
+}
+
 .credit2 {
   font-size: 0.8em;
   grid-row: 2;
   grid-column: 2;
   font-family: 'Gotham Narrow Regular'
+}
+
+@media (max-width: 659px) {
+  .credit2 {
+    font-size: 9px;
+  }
 }
