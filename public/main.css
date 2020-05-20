@@ -69,7 +69,7 @@ body {
 
 .container {
   max-width: 90%;
-  margin: 'auto';
+  margin: auto;
 }
 
 @media (max-width: 515px) {
