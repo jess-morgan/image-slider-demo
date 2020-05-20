@@ -118,11 +118,23 @@ body {
   margin: auto;
 }
 
-@media (max-width: 659px) {
+@media (max-width: 1013px) {
+  .col1 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 849px) {
   .col1 {
     font-size: 14px;
   }
 }
+
+@media (max-width: 500px) {
+  .col1 {
+    font-size: 10px;
+  }
+}  
 
 .title1 {
   font-weight: 900;
@@ -130,10 +142,17 @@ body {
   float: left;
 }
 
-.date1 {
+.date {
   margin-bottom: 10px;
   float: left;
   margin-left: 5px;
+  font-weight: normal;
+}
+
+@media (max-width: 849px) {
+  .date {
+    float: none;
+  }
 }
 
 .credit1 {
@@ -144,9 +163,21 @@ body {
   grid-column: 1;
 }
 
-@media (max-width: 659px) {
+@media (max-width: 1013px) {
   .credit1 {
-    font-size: 9px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 849px) {
+  .credit1 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .credit1 {
+    font-size: 8px;
   }
 }
 
@@ -157,14 +188,27 @@ body {
   grid-row: 1;
   grid-column: 2;
   float: right;
+  margin: auto;
 }
 
 
-@media (max-width: 659px) {
+@media (max-width: 1013px) {
+  .col2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 849px) {
   .col2 {
     font-size: 14px;
   }
 }
+
+@media (max-width: 500px) {
+  .col2 {
+    font-size: 10px;
+  }
+}  
 
 .credit2 {
   font-size: 0.8em;
@@ -173,8 +217,20 @@ body {
   font-family: 'Gotham Narrow Regular'
 }
 
-@media (max-width: 659px) {
+@media (max-width: 1013px) {
   .credit2 {
-    font-size: 9px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 849px) {
+  .credit2 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .credit2 {
+    font-size: 8px;
   }
 }

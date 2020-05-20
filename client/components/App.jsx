@@ -88,10 +88,10 @@ render () {
     </div>
     </Slider>
     <div className='text-grid'>
-    <div className='col1'><p className='title1'>{currentImageText.title1}</p> <p id="date" className='date1'>{currentImageText.date1}</p></div>
+    <div className='col1'><p className='title1'>{currentImageText.title1}</p> <p id="date" className='date'>{currentImageText.date1}</p></div>
     <div className="credit1">{currentImageText.credit1}</div>
     <br/>
-    <div className='col2'><p>{currentImageText.title2}</p></div>
+    <div className='col2'><p style={{float: 'left'}}>{currentImageText.title2}</p><p id="date" className='date'>{currentImageText.date2}</p></div>
     <div className="credit2">{currentImageText.credit2}</div>
    </div>
    </div>

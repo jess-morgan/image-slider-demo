@@ -5,7 +5,8 @@ const imageText = {
         title1: "Albert St ",
         date1: "circa 1865",
         credit1: "Reproduction from abumen silver print",
-        title2: "Albert St 2019",
+        title2: "Albert St ",
+        date2: "2019",
         credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
       },
         {
@@ -13,7 +14,8 @@ const imageText = {
         title1: "Corner of Queen and Fort streets ",
         date1: "1865",
         credit1: "Reproduction from abumen silver print",
-        title2: "Corner of Queen and Fort streets 2019",
+        title2: "Corner of Queen and Fort streets ",
+        date2: "2019",
         credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
        },
          {
@@ -21,7 +23,8 @@ const imageText = {
             title1: "Grafton Rd looking towards the harbour ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Grafton Rd looking towards the harbour 2019",
+            title2: "Grafton Rd looking towards the harbour ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
          {
@@ -29,7 +32,8 @@ const imageText = {
             title1: "Grey St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Greys Ave and Aotea Sq 2019",
+            title2: "Greys Ave and Aotea Sq ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -37,7 +41,8 @@ const imageText = {
             title1: "High St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "High St 2019",
+            title2: "High St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -45,7 +50,8 @@ const imageText = {
             title1: "Karangahape Rd ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Karangahape Rd 2019",
+            title2: "Karangahape Rd ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -53,7 +59,8 @@ const imageText = {
             title1: "Pitt St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Pitt St 2019",
+            title2: "Pitt St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -61,7 +68,8 @@ const imageText = {
             title1: "Queen St from corner of Customs St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Queen St from corner of Customs St 2019",
+            title2: "Queen St from corner of Customs St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -69,7 +77,8 @@ const imageText = {
             title1: "Queen St between Vulcan Lane and Durham St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Queen St between Vulcan Lane and Durham St 2019",
+            title2: "Queen St between Vulcan Lane and Durham St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -77,7 +86,8 @@ const imageText = {
             title1: "Shortland St looking down to Queen St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Shortland St looking down to Queen St 2019",
+            title2: "Shortland St looking down to Queen St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -85,7 +95,8 @@ const imageText = {
             title1: "Swanson St from Queen St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Swanson St from Queen St 2019",
+            title2: "Swanson St from Queen St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -93,7 +104,8 @@ const imageText = {
             title1: "Symonds St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Symonds St 2019",
+            title2: "Symonds St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -101,7 +113,8 @@ const imageText = {
             title1: "Corner of Victoria and Hobson streets ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Corner of Victoria and Hobson streets 2019",
+            title2: "Corner of Victoria and Hobson streets ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -109,7 +122,8 @@ const imageText = {
             title1: "Victoria St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Victoria St 2019",
+            title2: "Victoria St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         },
         {
@@ -117,7 +131,8 @@ const imageText = {
             title1: "Wyndham St from Queen St ",
             date1: "circa 1865",
             credit1: "Reproduction from abumen silver print",
-            title2: "Wyndham St from Queen St 2019",
+            title2: "Wyndham St from Queen St ",
+            date2: "2019",
             credit2: "By Andrew Pettengell. Inkjet on Iford Galeria Metallic."
         }
   ]
