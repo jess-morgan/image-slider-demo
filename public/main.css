@@ -34,9 +34,21 @@ p {
   }
 }
 
+@media (max-width: 450px) {
+  .slick-dots {
+    width: 96% !important;
+  }
+}
+
 @media (max-width: 659px) {
   .slick-dots li {
     margin: auto !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .slick-dots li {
+    padding: 0px !important;
   }
 }
 
@@ -53,6 +65,17 @@ p {
 
 body {
   font-family: 'Gotham Narrow';
+}
+
+.container {
+  max-width: '90%';
+  margin: 'auto';
+}
+
+@media (max-width: 515px) {
+  .container {
+    max-width: 80%;
+  }
 }
 
 #date {
