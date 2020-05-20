@@ -49,8 +49,18 @@ p {
 @media (max-width: 450px) {
   .slick-dots li {
     padding: 0px !important;
+    width: 15px !important;
   }
 }
+
+
+@media (max-width: 450px) {
+  .slick-dots li button {
+    padding: 0px !important;
+  }
+}
+
+
 
 @font-face {
   font-family: 'Gotham Narrow';
