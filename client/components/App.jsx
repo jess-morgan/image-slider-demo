@@ -32,7 +32,7 @@ render () {
 
 
   return (
-    <div style={{maxWidth: '70%', margin: 'auto'}}>
+    <div style={{maxWidth: '90%', margin: 'auto'}}>
     <Slider {...settings}>
       {/* 2 below are other slider options  */}
       {/* <div>
