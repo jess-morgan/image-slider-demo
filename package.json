@@ -48,7 +48,7 @@
     "react-compare-image": "^2.0.4",
     "react-dom": "^16.8.5",
     "react-slick": "^0.25.2",
-    "webpack": "^3.11.0",
+    "webpack": "^5.75.0",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
   }
